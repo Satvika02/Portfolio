@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <img src="myphoto.jpeg" alt="photo" class="photo">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>atvika</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class=" fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Satvika</span> </h1>
+                <h4>Web Designer , Forentend Devloper.</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="rows">
+                <div class="about-col-1">
+                    <img src="my.jpeg" class="pic">
+                 </div> 
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Satvika, a passionate and creative web designer.
+                    <br>I'm always open to new opportunities and collabrations.
+                    </p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                        
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Buuilding Android/ios apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2024</span><br> Pursuing 3rd year of computer engineering from PVPIT college.</li>
+                            <li><span>2021</span><br>12th from Narayana college,Hyderabad</li>
+                            <li><span>2019</span><br>10th from Angel high school,Pune</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!-- -----------------------services --------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <!-- <table>
+                <tr>
+                    <td> -->
+            <div>
+                <i class="fa-solid fa-code"></i>
+                 <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.  repellat. quis minima qui, ipsa aperiam accusamus. <br>Perferendis, nemo?`</p>
+                <a href="#">learn more</a>
+            </div>
+        <!-- </td>
+        <td> -->
+       
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>
+                     adipisicing elit.  repellat. quis minima qui, ipsa aperiam <br> Perferendis, nemo?`</p>
+                <a href="#">learn more</a>
+            </div>
+        <!-- </td>
+        <td> -->
+        
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.  repellat. quis minima qui, ipsa aperiam accusamus. <br>Perferendis, nemo?`</p>
+                <a href="#">learn more</a>
+            </div>
+        <!-- </td>
+            </tr>
+        </table> -->
+        
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------PORTFOLIO------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image.1.jpg" class="picture" >
+                <div class="layer">
+                    <h3>Hotel Booking Website</h3>
+                    <p>This website gives information of <br>
+                     budget free hotels.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+           </div>
+           </div>
+            <div class="work">
+                <img src="image.2.png" class="picture" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world.
+                    <br>Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            <div class="work">
+                <img src="image.3.jpg" class="picture">
+                <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app gives the facilities to  <br>order any product from anywhere</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+
+        <a hre?f="#" class="btn">see more</a>
+    </div>
+
+</div>
+<!-- -----------------------CONTACT------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">My Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+         </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ satvika.<i class="fa-solid fa-heart"></i></p>
+
+    </div>
+</div>
+
+    <script>
+
+        var tablinks=document.getElementByClassName("tab-links");
+        var tabcontents=document.getElementByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tablcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200";
+        }
+    </script> 
+    
+    
+    
+</body>
+</html>
